@@ -40,6 +40,14 @@ body {
 }
 
 /* Product Grid */
+.product-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .product-grid {
     display:flex;
     flex-direction: column;
@@ -165,13 +173,14 @@ body {
     display: flex;
 }
 .cart_quantity_count{
-    margin-top: 16px;
+    margin-top: 20px;
     /* background-color: red; */
     margin-left: 27px;
     position: absolute;
-    font-size: 29px;
+    font-size: 25px;
 
 }
+
 .plantname_heading{
    display: flex;
    align-items: center;
